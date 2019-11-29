@@ -195,7 +195,7 @@ spec:
   minKubeVersion: 1.8.0
   provider:
     name: Helm Community
-  ##replaces: cockroachdb.v2.1.11
+  replaces: cockroachdb.v2.1.11
   selector:
     matchLabels:
       alm-owner-etcd: couchbaseoperator
